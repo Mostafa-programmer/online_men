@@ -1,14 +1,11 @@
-print("hello")
-print("hello world")
-print("hossein")
-for i in range(1,3):
-    print("Love you")
-print("hello Ali pls come on baby :)))) ")
-<<<<<<< HEAD
-print(" daskarish kardam")
+from inspect import BlockFinder
+from tkinter import *
+import os
+from turtle import bgcolor 
 
-=======
-
-for i in range(1,5):
-    print("jon omadam turkey che hali daram mikonam man")
->>>>>>> 87dc1f62d5bf50ed9b914f935b3c6120fcc2d68c
+root = Tk()
+root.geometry("500x700")
+bgcolor(BlockFinder)
+root.resizable(0,0)
+root.title("menu fast food")
+root.mainloop()
